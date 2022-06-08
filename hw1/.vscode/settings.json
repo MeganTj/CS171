@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "dense": "cpp",
+        "vector": "cpp",
+        "typeinfo": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "unordered_map": "cpp"
+    },
+
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80]
+}

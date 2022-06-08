@@ -1,0 +1,25 @@
+This is Version B of the assignment. To compile the program, run
+
+make
+
+and to execute,
+
+./modeler [xres] [yres]
+
+
+I have 4 raytraced examples. Three of them are the robot arm, where I experimented with changing
+k, the attenuation component, between 0.2 and 0.01. I also included a raytraced robot arm where I 
+changed the rotation of the camera angle from axis = (0, 0, 1) and angle = 0 to axis = (1, 0, 1) 
+and angle = 1.
+
+
+
+--------------------------------------
+    If you don't have libpng-dev installed yet, please run:
+
+sudo apt-get install libpng-dev
+
+    If you don't have this package installed, you will most likely run into the
+following error:
+
+fatal error: png.h: No such file or directory

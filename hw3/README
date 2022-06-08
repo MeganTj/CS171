@@ -1,0 +1,9 @@
+To compile the program, type 
+
+make
+
+on the command line. 
+
+Execute with:
+
+./shaded data/scene_cube2.txt 800 800 

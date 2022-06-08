@@ -1,0 +1,10 @@
+To compile the program, type 
+
+make
+
+on the command line. 
+
+Execute with:
+
+./shadedRenderer data/scene_cube2.txt 800 800 0
+./textureRenderer lion.png lion-normals.png

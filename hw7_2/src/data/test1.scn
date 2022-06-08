@@ -1,0 +1,7 @@
+obj new_obj
+prm p1
+obj new_obj
+ap p1
+scale 2 1 1
+scale 1 1.5 1
+rotate 1  0 0 45

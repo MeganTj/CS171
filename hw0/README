@@ -1,0 +1,21 @@
+To compile all programs, type 
+
+make
+
+on the command line. 
+
+Executing Part 1: 
+
+./my_prog obj_file1.obj obj_file2.obj ... obj_fileN.obj
+
+Executing Part 2:
+
+./my_prog transform_file.txt
+
+Executing Part 3:
+
+./my_prog test_file.txt
+
+Executing Part 4:
+
+./ppm_test xres yres | display - 

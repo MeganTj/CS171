@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "dense": "cpp",
+        "unordered_map": "cpp",
+        "iostream": "cpp",
+        "fstream": "cpp"
+    },
+
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80]
+}

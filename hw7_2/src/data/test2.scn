@@ -1,0 +1,13 @@
+prm test_p
+obj test_obj
+ap test_p
+translate 1 0 0
+scale 2 1 2
+rotate 1 0 0 45
+translate -2 0 0
+translate -1 0 0
+prm a
+object test_obj
+ap a
+cursor a
+translate 1 2 0

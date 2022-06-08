@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0075)http://courses.cms.caltech.edu/cs171/assignments/hw4/hw4-html/cs171hw4.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+   <title></title> 
+ 
+<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
+<!-- html,mathml,imgdir:eqn-imgs/ --> 
+<meta name="src" content="cs171hw4.tex"> 
+<link rel="stylesheet" type="text/css" href="./cs171hw4_files/cs171hw4.css"> 
+ <script src="./cs171hw4_files/MathJax.js" id=""></script> 
+ <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head><body><div id="MathJax_Message" style="display: none;"></div>
+<!--l. 35--><p class="noindent">  <link rel="stylesheet" type="text/css" href="./cs171hw4_files/background.css">  
+<!--l. 37--></p><p class="noindent">  <span class="cmbx-12x-x-207">Assignment 4 - Intro. to GLSL and</span>
+<span class="cmbx-12x-x-207">Texturing</span>
+<!--l. 42--></p><p class="noindent"> <span class="cmbx-12x-x-144">Due Wednesday Nov. 6, 2019 at 3:00 PM</span>
+<!--l. 49--></p><p class="noindent"> <span class="cmbx-12x-x-172">Overview</span>
+<!--l. 54--></p><p class="noindent">This assignment is a introduction to OpenGL shaders and texturing.
+<!--l. 56--></p><p class="noindent">There are two parts to this assignment:
+      </p><ul class="itemize1">
+      <li class="itemize"><a href="http://courses.cms.caltech.edu/cs171/assignments/hw4/hw4-html/cs171hw4.html#Part1"><span class="cmbx-12">Part 1</span></a>: Write a program to implement per-pixel phong lighting for an object.
+      </li>
+      <li class="itemize"><a href="http://courses.cms.caltech.edu/cs171/assignments/hw4/hw4-html/cs171hw4.html#Part2"><span class="cmbx-12">Part 2</span></a>: Write a program to implement normal mapping on a flat surface.</li></ul>
+<!--l. 63--><p class="noindent">Before you begin, you may want to review the assignment material with <a href="http://courses.cms.caltech.edu/cs171/assignments/hw4/hw4-notes/notes-hw4.html">these lecture notes</a>. The
+GLSL shader demo for this assignment can be downloaded <a href="http://courses.cms.caltech.edu/cs171/assignments/hw4/hw4-hwfiles/hw4.zip">here</a>. More in-depth details for the
+assignment will be given in the sections below. There is also an extra credit section at the
+bottom.
+<!--l. 65--></p><p class="noindent"> <a id="Part1"><span class="cmbx-12x-x-172">Your Assignment: Part 1 (50 pts)</span></a>
+<!--l. 70--></p><p class="noindent">Your task is to update your OpenGL renderer and update it to implement per-pixel Phong
+shading. The program should also have a <span class="pcrr7t-x-x-120">mode </span>argument, which can be either 0 or 1, and if it is 0,
+then the scene should be rendered with Gouraud shading; otherwise, the scene should be rendered
+with Phong shading.
+<!--l. 72--></p><p class="noindent">The input of your program should be read from standard input as so:
+                                                                                         
+                                                                                         
+   </p><div class="verbatim" id="verbatim-1">
+./opengl_renderer&nbsp;[scene_description_file.txt]&nbsp;[xres]&nbsp;[yres]&nbsp;[mode]
+</div>
+<!--l. 76--><p class="nopar">
+<!--l. 78--></p><p class="noindent">Within the hw4 folder is an OpenGL shader demo program that is meant to serve as a
+reference for your own OpenGL program. We recommend making use of the demo’s source
+code and comments and its Makefile as references for when you are writing your own
+program.
+<!--l. 80--></p><p class="noindent"> <a id="Part2"><span class="cmbx-12x-x-172">Your Assignment: Part 2 (50 pts)</span></a>
+<!--l. 85--></p><p class="noindent">Your task is to write a program in C++ that takes an input color texture and normal map,
+and renders flat polygon shaded with the given textures. Lighting for the each pixel
+should be calculated with the color texture as the material color, and the R, G, and
+B components of the normal map as the xyz components of the normal vector. The
+program should also allow the user to intuitively rotate the scene with an Arcball mouse
+UI.
+<!--l. 87--></p><p class="noindent">The input of your program should be read from standard input as so:
+                                                                                         
+                                                                                         
+   </p><div class="verbatim" id="verbatim-2">
+./opengl_renderer&nbsp;[color_texture.png]&nbsp;[normal_map.png]
+</div>
+<!--l. 91--><p class="nopar">
+<!--l. 93--></p><p class="noindent">For this program, it is acceptable to hardcode the vertexes, normals, tangent vectors, and texture
+coordinates of a square surface directly into the program.
+</p><div class="center">
+<!--l. 95--><p class="noindent">
+<!--l. 96--></p><p class="noindent"><img src="./cs171hw4_files/texturemapping.png" alt="pict" width="704.63252pt"><br>
+Texture mapped image</p></div>
+<div class="center">
+<!--l. 100--><p class="noindent">
+<!--l. 101--></p><p class="noindent"><img src="./cs171hw4_files/normalmapping.png" alt="pict" width="704.63252pt"><br>
+Texture mapped image with normal mapped lighting</p></div>
+<!--l. 105--><p class="noindent"> <span class="cmbx-12x-x-172">Extra Credit</span>
+<!--l. 110--></p><p class="noindent">Assignments 3 and 4 together cover our “introduction” to the Open Graphics Library API.
+However, there are many more features of OpenGL and GLSL shaders that we did not cover. This
+includes small features such as fog, text rendering, alpha channels, and multiple display windows.
+This also includes larger topics such as Modern OpenGL syntax, geometry shaders, other texture
+mapping techniques like height mapping and parallax mapping, data plotting methods in
+OpenGL for scientific visualizations, and many more. <a href="https://en.wikibooks.org/wiki/OpenGL_Programming">This link</a> provides a lot of nice tutorials on the
+matter.
+<!--l. 112--></p><p class="noindent"><span class="cmbx-12">For extra credit, </span>explore and implement some of these features of OpenGL and GLSL. <span class="cmbx-12">Please</span>
+<span class="cmbx-12">consult with the TA’s ahead of time to make sure your extra credit topic is</span>
+<span class="cmbx-12">appropriate. Please also include details regarding your extra credit in the</span>
+<span class="cmbx-12">README. </span>Extra credit points will be awarded based on the complexity of the work. Simple
+things like fog rendering – which is only a few lines of additional syntax – won’t be
+worth much, but larger attempts such as implementing height mapping will be worth
+more.
+<!--l. 114--></p><p class="noindent"><span class="cmbx-12">TA’s are not liable to help with extra credit.</span>
+<!--l. 116--></p><p class="noindent"> <span class="cmbx-12x-x-172">What to Submit</span>
+<!--l. 121--></p><p class="noindent">Before submitting, please comment your code clearly and appropriately, making sure to give details
+regarding any non-trivial parts of your program.
+<!--l. 123--></p><p class="noindent">Submit a <span class="pcrr7t-x-x-120">.zip </span>or <span class="pcrr7t-x-x-120">.tar.gz </span>file containing all the files that we would need to compile, run, and
+test your program. In addition, please submit in the <span class="pcrr7t-x-x-120">.zip </span>or <span class="pcrr7t-x-x-120">.tar.gz </span>a README with
+instructions on how to compile and execute your program as well as any comments and
+information that you would like us to know.
+                                                                                         
+                                                                                         
+<!--l. 125--></p><p class="noindent">We ask that you name your <span class="pcrr7t-x-x-120">.zip </span>or <span class="pcrr7t-x-x-120">.tar.gz </span>file <span class="pcrr7t-x-x-120">lastname_firstname_hw4.zip </span>or
+<span class="pcrr7t-x-x-120">lastname_firstname_hw4.tar.gz </span>respectively, where you replace the “firstname” and
+“lastname” fields with your actual first and last name.
+<!--l. 128--></p><p class="noindent"><span class="cmbx-12">Please submit your zip or tar.gz to moodle in the area for Assignment 4.</span>
+<!--l. 130--></p><p class="indent">   </p><hr>
+<div class="center">
+<!--l. 135--><p class="noindent">
+<!--l. 136--></p><p class="noindent"><span class="cmbx-12">Original assignment by Andrew Zhao (Class of 2016).</span><br>
+<span class="cmbx-12">Links: </span><a href="http://courses.cms.caltech.edu/cs171/intro.html"><span class="cmbx-12">Home</span></a>  <a href="http://courses.cms.caltech.edu/cs171/assignments/index.html"><span class="cmbx-12">Assignments</span></a>  <a href="http://courses.cms.caltech.edu/cs171/contacts.html"><span class="cmbx-12">Contacts</span></a>  <a href="http://courses.cms.caltech.edu/cs171/policies.html"><span class="cmbx-12">Policies</span></a>  <a href="http://courses.cms.caltech.edu/cs171/resources.html"><span class="cmbx-12">Resources</span></a></p></div>
+    
+ 
+
+                                                                                         
+
+
+</body></html>

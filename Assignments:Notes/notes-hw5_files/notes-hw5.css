@@ -1,0 +1,368 @@
+ 
+/* start css.sty */
+.cmbx-12{ font-weight: bold;}
+.cmbx-12{ font-weight: bold;}
+.cmbx-12{ font-weight: bold;}
+.cmbx-12{ font-weight: bold;}
+.cmbsy-10x-x-120{font-weight: bold;}
+.cmbsy-10x-x-120{font-weight: bold;}
+.cmbsy-10x-x-120{font-weight: bold;}
+.cmbsy-8{font-size:66%;font-weight: bold;}
+.cmbsy-8{font-weight: bold;}
+.cmbsy-8{font-weight: bold;}
+.cmbsy-6{font-size:50%;font-weight: bold;}
+.cmbsy-6{font-weight: bold;}
+.cmbsy-6{font-weight: bold;}
+.cmex-8{font-size:66%;}
+.cmex-7x-x-85{font-size:49%;}
+.msam-10x-x-80{font-size:66%;}
+.msam-7x-x-85{font-size:49%;}
+.msbm-10x-x-80{font-size:66%;}
+.msbm-7x-x-85{font-size:49%;}
+.stmary-8{font-size:66%;}
+.stmary-6{font-size:50%;}
+.cmr-8{font-size:66%;}
+.cmr-6{font-size:50%;}
+.cmmi-12{font-style: italic;}
+.cmmi-8{font-size:66%;font-style: italic;}
+.cmmi-6{font-size:50%;font-style: italic;}
+.cmsy-8{font-size:66%;}
+.cmsy-6{font-size:50%;}
+.cmbx-12x-x-207{font-size:207%; font-weight: bold;}
+.cmbx-12x-x-207{ font-weight: bold;}
+.cmbx-12x-x-207{ font-weight: bold;}
+.cmbx-12x-x-207{ font-weight: bold;}
+.cmbx-12x-x-172{font-size:172%; font-weight: bold;}
+.cmbx-12x-x-172{ font-weight: bold;}
+.cmbx-12x-x-172{ font-weight: bold;}
+.cmbx-12x-x-172{ font-weight: bold;}
+.cmti-12{ font-style: italic;}
+.cmbx-12x-x-144{font-size:144%; font-weight: bold;}
+.cmbx-12x-x-144{ font-weight: bold;}
+.cmbx-12x-x-144{ font-weight: bold;}
+.cmbx-12x-x-144{ font-weight: bold;}
+.pcrr7t-x-x-120{font-family: monospace;}
+.pcrb7t-x-x-120{ font-family: monospace; font-weight: bold;}
+.pcrro7t-x-x-120{font-family: monospace;    font-style: oblique;}
+.pcrro8c-x-x-120{ font-family: monospace;    font-style: oblique;}
+p.noindent { text-indent: 0em }
+td p.noindent { text-indent: 0em; margin-top:0em; }
+p.nopar { text-indent: 0em; }
+p.indent{ text-indent: 1.5em }
+@media print {div.crosslinks {visibility:hidden;}}
+a img { border-top: 0; border-left: 0; border-right: 0; }
+center { margin-top:1em; margin-bottom:1em; }
+td center { margin-top:0em; margin-bottom:0em; }
+.Canvas { position:relative; }
+math { text-indent: 0em; }
+li p.indent { text-indent: 0em }
+li p:first-child{ margin-top:0em; }
+li p:last-child, li div:last-child { margin-bottom:0.5em; }
+li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+.enumerate1 {list-style-type:decimal;}
+.enumerate2 {list-style-type:lower-alpha;}
+.enumerate3 {list-style-type:lower-roman;}
+.enumerate4 {list-style-type:upper-alpha;}
+div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+.obeylines-h,.obeylines-v {white-space: nowrap; }
+div.obeylines-v p { margin-top:0; margin-bottom:0; }
+.overline{ text-decoration:overline; }
+.overline img{ border-top: 1px solid black; }
+td.displaylines {text-align:center; white-space:nowrap;}
+.centerline {text-align:center;}
+.rightline {text-align:right;}
+div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
+.fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.fbox {display:table}
+div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.minipage{width:100%;}
+div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+div.center div {text-align: left;}
+div.flushright, div.flushright div.flushright {text-align: right;}
+div.flushright div {text-align: left;}
+div.flushleft {text-align: left;}
+.underline{ text-decoration:underline; }
+.underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+.framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+.framebox-c {text-align:center;}
+.framebox-l {text-align:left;}
+.framebox-r {text-align:right;}
+span.thank-mark{ vertical-align: super }
+span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 1px; margin:0px; }
+.tabbing-right {text-align:right;}
+span.TEX {letter-spacing: -0.125em; }
+span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+a span.TEX span.E {text-decoration: none; }
+span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+span.LATEX span.TEX{ position:relative; left: -0.4em; }
+div.float, div.figure {margin-left: auto; margin-right: auto;}
+div.float img {text-align:center;}
+div.figure img {text-align:center;}
+.marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+.marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+.reversemarginpar{float:left;}
+.equation td{text-align:center; vertical-align:middle; }
+td.eq-no{ width:5%; }
+table.equation { width:100%; } 
+div.math-display, div.par-math-display{text-align:center;}
+mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
+mtr.hline mtd mo{ display:none }
+math .texttt { font-family: monospace; }
+math .textit { font-style: italic; }
+math .textsl { font-style: oblique; }
+math .textsf { font-family: sans-serif; }
+math .textbf { font-weight: bold; }
+mo.MathClass-op + mi{margin-left:0.3em}
+mi + mo.MathClass-op{margin-left:0.3em}
+ math mi[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+ math mi[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
+.partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+.index-item, .index-subitem, .index-subsubitem {display:block}
+div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+div.caption span.id{font-weight: bold; white-space: nowrap; }
+h1.partHead{text-align: center}
+p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+.paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+.subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+.quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+.verse{white-space:nowrap; margin-left:2em}
+div.maketitle {text-align:center;}
+h2.titleHead{text-align:center;}
+div.maketitle{ margin-bottom: 2em; }
+div.author, div.date {text-align:center;}
+div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+div.author{white-space: nowrap;}
+.quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+.abstract p {margin-left:5%; margin-right:5%;}
+div.abstract {width:100%;}
+.rotatebox{display: inline-block;}
+.figure img.graphics {margin-left:10%;}
+.equation-star td{text-align:center; vertical-align:middle; }
+table.equation-star { width:100%; } 
+mtd.align-odd{margin-left:2em; text-align:right;}
+mtd.align-even{margin-right:2em; text-align:left;}
+.boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
+mo.qopname + mi{margin-left:0.3em}
+mi + mo.qopname{margin-left:0.3em}
+dd.enumerate {margin-left: 2em;}
+dt.enumerate {float:left; clear:left; margin-right:0.5em; margin-left:0.5em; text-align:right; }
+.lstlisting .label{margin-right:0.5em; }
+div.lstlisting{font-family: monospace; white-space: nowrap; margin-top:0.5em; margin-bottom:0.5em; }
+div.lstinputlisting{ font-family: monospace; white-space: nowrap; }
+.lstinputlisting .label{margin-right:0.5em;}
+div.algorithm table.caption { border-bottom: 1px solid black; margin-bottom:1pt; }
+div.algorithmic span.algorithmic{white-space:pre}
+P.fancyvrb {white-space: nowrap; margin:0em;}
+.framedenv{border: 1px solid black;}
+ body { margin-top: 170px; margin-right: 96px; margin-bottom: 25px; margin-left: 192px; } 
+#textcolor1{color:rgb(0,127,0)}
+#textcolor2{color:rgb(0,127,0)}
+#textcolor3{color:rgb(101,101,101)}
+#textcolor4{color:rgb(0,127,0)}
+#textcolor5{color:rgb(101,101,101)}
+#textcolor6{color:rgb(0,127,0)}
+#textcolor7{color:rgb(101,101,101)}
+#textcolor8{color:rgb(0,127,0)}
+#textcolor9{color:rgb(101,101,101)}
+#textcolor10{color:rgb(101,101,101)}
+#textcolor11{color:rgb(101,101,101)}
+#textcolor12{color:rgb(101,101,101)}
+#textcolor13{color:rgb(101,101,101)}
+#textcolor14{color:rgb(0,127,0)}
+#textcolor15{color:rgb(63,127,127)}
+#textcolor16{color:rgb(101,101,101)}
+#textcolor17{color:rgb(101,101,101)}
+#textcolor18{color:rgb(101,101,101)}
+#textcolor19{color:rgb(0,127,0)}
+#textcolor20{color:rgb(101,101,101)}
+#textcolor21{color:rgb(101,101,101)}
+#textcolor22{color:rgb(63,127,127)}
+#textcolor23{color:rgb(101,101,101)}
+#textcolor24{color:rgb(101,101,101)}
+#textcolor25{color:rgb(101,101,101)}
+#textcolor26{color:rgb(0,127,0)}
+#textcolor27{color:rgb(101,101,101)}
+#textcolor28{color:rgb(101,101,101)}
+#textcolor29{color:rgb(101,101,101)}
+#textcolor30{color:rgb(101,101,101)}
+#textcolor31{color:rgb(101,101,101)}
+#textcolor32{color:rgb(101,101,101)}
+#textcolor33{color:rgb(101,101,101)}
+#textcolor34{color:rgb(101,101,101)}
+#textcolor35{color:rgb(101,101,101)}
+#textcolor36{color:rgb(101,101,101)}
+#textcolor37{color:rgb(101,101,101)}
+#textcolor38{color:rgb(101,101,101)}
+#textcolor39{color:rgb(101,101,101)}
+#textcolor40{color:rgb(101,101,101)}
+#textcolor41{color:rgb(101,101,101)}
+#textcolor42{color:rgb(101,101,101)}
+#textcolor43{color:rgb(101,101,101)}
+#textcolor44{color:rgb(101,101,101)}
+#textcolor45{color:rgb(63,127,127)}
+#textcolor46{color:rgb(63,127,127)}
+#textcolor47{color:rgb(63,127,127)}
+#textcolor48{color:rgb(101,101,101)}
+#textcolor49{color:rgb(101,101,101)}
+#textcolor50{color:rgb(101,101,101)}
+#textcolor51{color:rgb(0,127,0)}
+#textcolor52{color:rgb(101,101,101)}
+#textcolor53{color:rgb(101,101,101)}
+#textcolor54{color:rgb(63,127,127)}
+#textcolor55{color:rgb(188,122,0)}
+#textcolor56{color:rgb(63,127,127)}
+#textcolor57{color:rgb(188,122,0)}
+#textcolor58{color:rgb(63,127,127)}
+#textcolor59{color:rgb(63,127,127)}
+#textcolor60{color:rgb(175,0,63)}
+#textcolor61{color:rgb(0,0,255)}
+#textcolor62{color:rgb(101,101,101)}
+#textcolor63{color:rgb(101,101,101)}
+#textcolor64{color:rgb(101,101,101)}
+#textcolor65{color:rgb(101,101,101)}
+#textcolor66{color:rgb(0,127,0)}
+#textcolor67{color:rgb(175,0,63)}
+#textcolor68{color:rgb(101,101,101)}
+#textcolor69{color:rgb(101,101,101)}
+#textcolor70{color:rgb(101,101,101)}
+#textcolor71{color:rgb(101,101,101)}
+#textcolor72{color:rgb(101,101,101)}
+#textcolor73{color:rgb(63,127,127)}
+#textcolor74{color:rgb(101,101,101)}
+#textcolor75{color:rgb(101,101,101)}
+#textcolor76{color:rgb(101,101,101)}
+#textcolor77{color:rgb(63,127,127)}
+#textcolor78{color:rgb(63,127,127)}
+#textcolor79{color:rgb(101,101,101)}
+#textcolor80{color:rgb(101,101,101)}
+#textcolor81{color:rgb(175,0,63)}
+#textcolor82{color:rgb(101,101,101)}
+#textcolor83{color:rgb(101,101,101)}
+#textcolor84{color:rgb(101,101,101)}
+#textcolor85{color:rgb(101,101,101)}
+#textcolor86{color:rgb(101,101,101)}
+#textcolor87{color:rgb(63,127,127)}
+#textcolor88{color:rgb(63,127,127)}
+#textcolor89{color:rgb(175,0,63)}
+#textcolor90{color:rgb(101,101,101)}
+#textcolor91{color:rgb(101,101,101)}
+#textcolor92{color:rgb(101,101,101)}
+#textcolor93{color:rgb(101,101,101)}
+#textcolor94{color:rgb(63,127,127)}
+#textcolor95{color:rgb(101,101,101)}
+#textcolor96{color:rgb(101,101,101)}
+#textcolor97{color:rgb(175,0,63)}
+#textcolor98{color:rgb(101,101,101)}
+#textcolor99{color:rgb(63,127,127)}
+#textcolor100{color:rgb(101,101,101)}
+#textcolor101{color:rgb(101,101,101)}
+#textcolor102{color:rgb(101,101,101)}
+#textcolor103{color:rgb(0,127,0)}
+#textcolor104{color:rgb(175,0,63)}
+#textcolor105{color:rgb(101,101,101)}
+#textcolor106{color:rgb(101,101,101)}
+#textcolor107{color:rgb(101,101,101)}
+#textcolor108{color:rgb(101,101,101)}
+#textcolor109{color:rgb(101,101,101)}
+#textcolor110{color:rgb(101,101,101)}
+#textcolor111{color:rgb(101,101,101)}
+#textcolor112{color:rgb(101,101,101)}
+#textcolor113{color:rgb(101,101,101)}
+#textcolor114{color:rgb(0,127,0)}
+#textcolor115{color:rgb(63,127,127)}
+#textcolor116{color:rgb(175,0,63)}
+#textcolor117{color:rgb(101,101,101)}
+#textcolor118{color:rgb(101,101,101)}
+#textcolor119{color:rgb(101,101,101)}
+#textcolor120{color:rgb(101,101,101)}
+#textcolor121{color:rgb(63,127,127)}
+#textcolor122{color:rgb(63,127,127)}
+#textcolor123{color:rgb(175,0,63)}
+#textcolor124{color:rgb(101,101,101)}
+#textcolor125{color:rgb(101,101,101)}
+#textcolor126{color:rgb(101,101,101)}
+#textcolor127{color:rgb(101,101,101)}
+#textcolor128{color:rgb(63,127,127)}
+#textcolor129{color:rgb(101,101,101)}
+#textcolor130{color:rgb(101,101,101)}
+#textcolor131{color:rgb(101,101,101)}
+#textcolor132{color:rgb(101,101,101)}
+#textcolor133{color:rgb(101,101,101)}
+#textcolor134{color:rgb(101,101,101)}
+#textcolor135{color:rgb(101,101,101)}
+#textcolor136{color:rgb(101,101,101)}
+#textcolor137{color:rgb(0,127,0)}
+#textcolor138{color:rgb(101,101,101)}
+#textcolor139{color:rgb(101,101,101)}
+#textcolor140{color:rgb(101,101,101)}
+#textcolor141{color:rgb(63,127,127)}
+#textcolor142{color:rgb(0,127,0)}
+#textcolor143{color:rgb(63,127,127)}
+#textcolor144{color:rgb(175,0,63)}
+#textcolor145{color:rgb(101,101,101)}
+#textcolor146{color:rgb(101,101,101)}
+#textcolor147{color:rgb(101,101,101)}
+#textcolor148{color:rgb(101,101,101)}
+#textcolor149{color:rgb(63,127,127)}
+#textcolor150{color:rgb(101,101,101)}
+#textcolor151{color:rgb(101,101,101)}
+#textcolor152{color:rgb(175,0,63)}
+#textcolor153{color:rgb(101,101,101)}
+#textcolor154{color:rgb(101,101,101)}
+#textcolor155{color:rgb(63,127,127)}
+#textcolor156{color:rgb(101,101,101)}
+#textcolor157{color:rgb(101,101,101)}
+#textcolor158{color:rgb(101,101,101)}
+#textcolor159{color:rgb(101,101,101)}
+#textcolor160{color:rgb(175,0,63)}
+#textcolor161{color:rgb(101,101,101)}
+#textcolor162{color:rgb(101,101,101)}
+#textcolor163{color:rgb(101,101,101)}
+#textcolor164{color:rgb(175,0,63)}
+#textcolor165{color:rgb(101,101,101)}
+#textcolor166{color:rgb(101,101,101)}
+#textcolor167{color:rgb(63,127,127)}
+#textcolor168{color:rgb(175,0,63)}
+#textcolor169{color:rgb(101,101,101)}
+#textcolor170{color:rgb(101,101,101)}
+#textcolor171{color:rgb(101,101,101)}
+#textcolor172{color:rgb(101,101,101)}
+#textcolor173{color:rgb(63,127,127)}
+#textcolor174{color:rgb(101,101,101)}
+#textcolor175{color:rgb(0,127,0)}
+#textcolor176{color:rgb(175,0,63)}
+#textcolor177{color:rgb(101,101,101)}
+#textcolor178{color:rgb(101,101,101)}
+#textcolor179{color:rgb(101,101,101)}
+#textcolor180{color:rgb(101,101,101)}
+#textcolor181{color:rgb(101,101,101)}
+#textcolor182{color:rgb(101,101,101)}
+#textcolor183{color:rgb(101,101,101)}
+#textcolor184{color:rgb(101,101,101)}
+#textcolor185{color:rgb(63,127,127)}
+#textcolor186{color:rgb(63,127,127)}
+#textcolor187{color:rgb(101,101,101)}
+#textcolor188{color:rgb(101,101,101)}
+#textcolor189{color:rgb(63,127,127)}
+#textcolor190{color:rgb(101,101,101)}
+#textcolor191{color:rgb(101,101,101)}
+#textcolor192{color:rgb(101,101,101)}
+/* end css.sty */
+

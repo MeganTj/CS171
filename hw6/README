@@ -1,0 +1,19 @@
+To compile the program, type 
+
+make
+
+on the command line. 
+
+For Part 1, execute with:
+
+./single_pendulum [xres] [yres] [x_start] [y_start]
+./double_pendulum [xres] [yres] [x_start_1] [y_start_1] [x_start_2] [y_start_2]
+./simulate man.obj
+
+For I_Bar:
+
+./keyframe [script_name] [xres] [yres]
+
+For Bunny_Frames
+
+./keyframe

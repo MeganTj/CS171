@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0075)http://courses.cms.caltech.edu/cs171/assignments/hw7/hw7-html/cs171hw7.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+   <title></title> 
+ 
+<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
+<!-- html,mathml,imgdir:eqn-imgs/ --> 
+<meta name="src" content="cs171hw7.tex"> 
+<link rel="stylesheet" type="text/css" href="./cs171hw7_files/cs171hw7.css"> 
+ <script src="./cs171hw7_files/MathJax.js" id=""></script> 
+ <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+<!--l. 36--><p class="noindent">  <link rel="stylesheet" type="text/css" href="./cs171hw7_files/background.css">  
+<!--l. 38--></p><p class="noindent"> <span class="cmbx-12x-x-207">Assignment 7 - Introduction to Ray</span>
+<span class="cmbx-12x-x-207">Tracing</span>
+<!--l. 43--></p><p class="noindent"> <span class="cmbx-12x-x-144">Part 1 Due Wednesday Dec. 4, 2019 at 3:00 PM </span><br class="newline"><br class="newline"><span class="cmbx-12x-x-144">Part 2 Due Wednesday Dec. 11, 2019 at 3:00 PM, no</span>
+<span class="cmbx-12x-x-144">extensions</span>
+<!--l. 52--></p><p class="noindent"><img src="./cs171hw7_files/robot_arm.png" alt="pict" width="422.77664pt">
+<!--l. 55--></p><p class="noindent"> <span class="cmbx-12x-x-172">Overview</span>
+<!--l. 60--></p><p class="noindent">So far, all of our work in this course has been with polygonal models, which can be tidied up by
+shading methods such as the Phong model, but are fundamentally an approximation of some exact
+surface. Furthermore, we have not discussed dealing with shadows, reflections, or refractions
+through materials such as glass while using a tool such as OpenGL or our own shader program.
+One common technique to tackle all of these issues at once, at the sacrifice of real-time speed, is
+what’s known as <span class="cmti-12">ray tracing</span>.
+<!--l. 62--></p><p class="noindent">As the name implies, this involves tracing the path that a ray of light follows to the camera as it
+interacts with different objects in the scene, starting from the camera itself. To determine where
+the ray interacts with a surface, we need a way to express it mathematically so that we can solve
+explicitly or at least approximately for their point(s) of intersection. While it’s possible to
+do this for the interpolated smooth surface of tessellated models, it turns out to be
+easier to use implicitly defined surfaces. Specifically, we will be asking you to ray trace
+scenes composed of certain type of shapes called <span class="cmti-12">superquadrics</span>, along with various light
+sources.
+<!--l. 64--></p><p class="noindent">To help you with this, we have provided a modeling program composed of a command line
+and a viewer. The former can be used to manually build scenes out of superquadric
+primitives or load files specifying a series of modeling commands, while the latter allows
+you to view the current scene, and explore it through an arcball interface and other
+commands. The end goal of this assignment is to traverse the data structure provided to
+store objects and render the scene using ray tracing. The assignment is broken into two
+parts:
+      </p><ul class="itemize1">
+      <li class="itemize"><a href="http://courses.cms.caltech.edu/cs171/assignments/hw7/hw7-html/cs171hw7.html#Part1"><span class="cmbx-12">Part 1</span></a>: Implement helper functions to become familiar with the math.
+      </li>
+      <li class="itemize"><a href="http://courses.cms.caltech.edu/cs171/assignments/hw7/hw7-html/cs171hw7.html#Part2"><span class="cmbx-12">Part 2</span></a>: Implement ray tracing functionality.</li></ul>
+<!--l. 72--><p class="indent">   the first which you will be focusing on becoming familiar with the necessary math to complete
+the task, and the second will be focusing on actually ray tracing the scene.
+                                                                                         
+                                                                                         
+<!--l. 74--></p><p class="noindent">Before you begin, you may want to review the assignment material with <a href="http://courses.cms.caltech.edu/cs171/assignments/hw7/hw7-notes/notes-hw7.html">these lecture notes</a>, and
+review how to use the program we provide with <a href="http://courses.cms.caltech.edu/cs171/assignments/hw7/hw7-notes/tools.txt">these specification notes</a>. The files for this
+assignment can be downloaded <a href="http://courses.cms.caltech.edu/cs171/assignments/hw7/hw7-hwfiles/hw7.zip">here</a>. More in-depth details for the assignment will be given in the
+sections below.
+<!--l. 76--></p><p class="indent">   </p><hr>
+<!--l. 78--><p class="noindent"> <span class="cmbx-12x-x-172">Renderer Controls</span>
+<!--l. 83--></p><p class="indent">   Since we are providing you with a renderer for this assignment, the keyboard controls for the
+renderer are as follows:
+      </p><ul class="itemize1">
+      <li class="itemize"><span class="cmbx-12">q </span>or <span class="cmbx-12">Esc</span>: switches keyboard control back to the command line
+      </li>
+      <li class="itemize"><span class="cmbx-12">b</span>: toggles whether the scene’s lights rotate with the arcball (by default, they do)
+      </li>
+      <li class="itemize"><span class="cmbx-12">m</span>: toggles between per-pixel (i.e. Phong model, default) and per-vertex (Gouraud)
+      shading. If the renderer is running slowly, you should try changing the shading mode
+      to per-vertex.
+      </li>
+      <li class="itemize"><span class="cmbx-12">w</span>: increases the scale of the scene in the viewer
+      </li>
+      <li class="itemize"><span class="cmbx-12">s</span>: decreases the scale of the scene in the viewer
+      </li>
+      <li class="itemize"><span class="cmbx-12">r</span>: refreshes the entities in the scene
+      </li>
+      <li class="itemize"><span class="cmbx-12">t</span>: toggles wireframe mode (defaults to off). When wireframe mode is off, we load all
+      the scene data into the GPU and then draw, which is fast, but for wireframes we have
+      to draw each edge one by one from the CPU side of things, which is much slower. If
+      your scene has a lot of high-resolution polygons in it, wireframe mode will be very
+      slow. <span class="cmbx-12">The result of </span><span class="pcrb7t-x-x-120">drawIOTest() </span><span class="cmbx-12">is only shown in wireframe mode.</span>
+      </li>
+      <li class="itemize"><span class="cmbx-12">n</span>: toggles the drawing of normals in wireframe mode (defaults to off). If this is turned
+      on, a vector indicating the direction of the normal at each vertex will be drawn in
+      wireframe mode.
+      </li>
+      <li class="itemize"><span class="cmbx-12">o</span>: toggles whether your <span class="pcrr7t-x-x-120">drawIOTest() </span>function is called during non-wireframe mode
+      rendering (defaults to on, which does nothing at first).
+      </li>
+      <li class="itemize"><span class="cmbx-12">i</span>: toggles whether your <span class="pcrr7t-x-x-120">drawIntersectTest() </span>function is called during wireframe
+      mode rendering (defaults to on, which does nothing at first).
+                                                                                         
+                                                                                         
+      </li>
+      <li class="itemize"><span class="cmbx-12">p</span>: calls the <span class="pcrr7t-x-x-120">raytrace() </span>function</li></ul>
+<!--l. 98--><p class="indent">   </p><hr>
+<!--l. 100--><p class="noindent"> <a id="Part1"><span class="cmbx-12x-x-172">Your Assignment: Part 1 (50 pts)</span></a>
+<!--l. 105--></p><p class="noindent">The first part of this assignment focuses on helping you get a better grasp of the renderer and the
+math that we will be using to ray trace a scene. There are two main tasks that you need to
+complete for this partare as follows and should be completed in <span class="cmbx-12">Assignment.cpp</span>:
+      </p><dl class="enumerate"><dt class="enumerate">
+   1. </dt><dd class="enumerate"><span class="cmbx-12">(25 Points) </span>Your first task is to modify the <span class="cmbx-12">IOTest() </span>function. Its purpose is to
+      ensure that you understand the math behind superquadrics, and to verify that you
+      can test a point in world space using the inside-outside function of a transformed
+      superquadric. What we want for you to do is to update the function <span class="cmbx-12">IOTest() </span>to return
+      true if the corresponding x, y, z coordinate passed is inside a superquadric and false
+      otherwise. When done correctly, <span class="cmbx-12">drawIOTest() </span>should draw colored small spheres or
+      GL_POINT objects in world space, indicating whether the particular point is inside
+      a superquadric or not. You should only need to change code where we have marked a
+      TODO. Remember. don’t forget to apply the inverse superquadric transformations to
+      each point you test, as the inside-outside function assumes the superquadric is centered
+      at the origin.
+      </dd><dt class="enumerate">
+   2. </dt><dd class="enumerate"><span class="cmbx-12">(25 Points) </span>Your second task is to implement the <span class="cmbx-12">findIntersection() </span>function and
+      modify  the  <span class="cmbx-12">drawIntersectTest() </span>function.  Its  purpose  is  to  ensure  that  you  can
+      intersect a ray with a superquadric, assuming it hits one. Given the ray equation
+      <!--l. 111--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-op&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo class=&quot;MathClass-bin&quot;&gt;+&lt;/mo&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mrow&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-op&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 3.368em; display: inline-block;"><span style="display: inline-block; position: relative; width: 3.248em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(1.205em, 1003.19em, 2.828em, -999.997em); top: -2.581em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mover" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px;"><span style="position: absolute; clip: rect(3.428em, 1000.48em, 4.21em, -999.997em); top: -4.023em; left: 0.243em;"><span class="mrow" id="MathJax-Span-4"><span class="mi" id="MathJax-Span-5" style="font-family: STIXGeneral-Italic;">a</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span><span style="position: absolute; clip: rect(3.428em, 1000.84em, 4.15em, -999.997em); top: -4.564em; left: 0em;"><span class="mo MathClass-op" id="MathJax-Span-6" style=""><span style="font-family: STIXGeneral-Regular;">&#8594;</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span></span></span><span class="mi" id="MathJax-Span-7" style="font-family: STIXGeneral-Italic;">t<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo MathClass-bin" id="MathJax-Span-8" style="font-family: STIXGeneral-Regular; padding-left: 0.243em;">+</span><span class="mover" id="MathJax-Span-9" style="padding-left: 0.243em;"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px;"><span style="position: absolute; clip: rect(3.188em, 1000.48em, 4.21em, -999.997em); top: -4.023em; left: 0.243em;"><span class="mrow" id="MathJax-Span-10"><span class="mi" id="MathJax-Span-11" style="font-family: STIXGeneral-Italic;">b</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span><span style="position: absolute; clip: rect(3.428em, 1000.84em, 4.15em, -999.997em); top: -4.805em; left: 0em;"><span class="mo MathClass-op" id="MathJax-Span-12" style=""><span style="font-family: STIXGeneral-Regular;">&#8594;</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.587em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.122em; border-left: 0px solid; width: 0px; height: 1.441em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover><mi>t</mi><mo class="MathClass-bin">+</mo><mover accent="true"><mrow><mi>b</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></span></span><script type="math/mml" id="MathJax-Element-1"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover><mi>t</mi> <mo class="MathClass-bin">+</mo> <mover accent="true"><mrow><mi>b</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></script>
+      where <!--l. 111--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mrow&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-op&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 0.965em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(-0.358em, 1000.84em, 1.205em, -999.997em); top: -1.019em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mover" id="MathJax-Span-15"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px;"><span style="position: absolute; clip: rect(3.188em, 1000.48em, 4.21em, -999.997em); top: -4.023em; left: 0.243em;"><span class="mrow" id="MathJax-Span-16"><span class="mi" id="MathJax-Span-17" style="font-family: STIXGeneral-Italic;">b</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span><span style="position: absolute; clip: rect(3.428em, 1000.84em, 4.15em, -999.997em); top: -4.805em; left: 0em;"><span class="mo MathClass-op" id="MathJax-Span-18" style=""><span style="font-family: STIXGeneral-Regular;">&#8594;</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 1.025em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 1.441em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>b</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></span></span><script type="math/mml" id="MathJax-Element-2"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>b</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></script>
+      is the camera position and <!--l. 111--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-op&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-19" style="width: 0.965em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(-0.117em, 1000.84em, 1.205em, -999.997em); top: -1.019em; left: 0em;"><span class="mrow" id="MathJax-Span-20"><span class="mover" id="MathJax-Span-21"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px;"><span style="position: absolute; clip: rect(3.428em, 1000.48em, 4.21em, -999.997em); top: -4.023em; left: 0.243em;"><span class="mrow" id="MathJax-Span-22"><span class="mi" id="MathJax-Span-23" style="font-family: STIXGeneral-Italic;">a</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span><span style="position: absolute; clip: rect(3.428em, 1000.84em, 4.15em, -999.997em); top: -4.564em; left: 0em;"><span class="mo MathClass-op" id="MathJax-Span-24" style=""><span style="font-family: STIXGeneral-Regular;">&#8594;</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 1.025em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 1.191em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></span></span><script type="math/mml" id="MathJax-Element-3"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></script>
+      is  the  direction  the  camera  is  looking,  then  we  want  to  be  able  to  find  the  first
+      intersection with a superquadric (if it exists). Before any camera transformations we
+      know that <!--l. 111--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-op&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;mo class=&quot;MathClass-rel&quot;&gt;=&lt;/mo&gt;&lt;mrow&gt;&lt;mo class=&quot;MathClass-open&quot;&gt;(&lt;/mo&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo class=&quot;MathClass-punc&quot;&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo class=&quot;MathClass-punc&quot;&gt;,&lt;/mo&gt;&lt;mo class=&quot;MathClass-bin&quot;&gt;-&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-close&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-25" style="width: 6.133em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.892em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(1.445em, 1005.83em, 2.948em, -999.997em); top: -2.581em; left: 0em;"><span class="mrow" id="MathJax-Span-26"><span class="mover" id="MathJax-Span-27"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px;"><span style="position: absolute; clip: rect(3.428em, 1000.48em, 4.21em, -999.997em); top: -4.023em; left: 0.243em;"><span class="mrow" id="MathJax-Span-28"><span class="mi" id="MathJax-Span-29" style="font-family: STIXGeneral-Italic;">a</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span><span style="position: absolute; clip: rect(3.428em, 1000.84em, 4.15em, -999.997em); top: -4.564em; left: 0em;"><span class="mo MathClass-op" id="MathJax-Span-30" style=""><span style="font-family: STIXGeneral-Regular;">&#8594;</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span></span></span><span class="mo MathClass-rel" id="MathJax-Span-31" style="font-family: STIXGeneral-Regular; padding-left: 0.303em;">=</span><span class="mrow" id="MathJax-Span-32" style="padding-left: 0.303em;"><span class="mo MathClass-open" id="MathJax-Span-33" style="font-family: STIXGeneral-Regular;">(</span><span class="mrow" id="MathJax-Span-34"><span class="mn" id="MathJax-Span-35" style="font-family: STIXGeneral-Regular;">0</span><span class="mo MathClass-punc" id="MathJax-Span-36" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-37" style="font-family: STIXGeneral-Regular; padding-left: 0.183em;">0</span><span class="mo MathClass-punc" id="MathJax-Span-38" style="font-family: STIXGeneral-Regular;">,</span><span class="mo MathClass-bin" id="MathJax-Span-39" style="font-family: STIXGeneral-Regular; padding-left: 0.183em;">&#8722;</span><span class="mn" id="MathJax-Span-40" style="font-family: STIXGeneral-Regular;">1</span></span><span class="mo MathClass-close" id="MathJax-Span-41" style="font-family: STIXGeneral-Regular;">)</span></span></span><span style="display: inline-block; width: 0px; height: 2.587em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.247em; border-left: 0px solid; width: 0px; height: 1.316em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover><mo class="MathClass-rel">=</mo><mrow><mo class="MathClass-open">(</mo><mrow><mn>0</mn><mo class="MathClass-punc">,</mo><mn>0</mn><mo class="MathClass-punc">,</mo><mo class="MathClass-bin">-</mo><mn>1</mn></mrow><mo class="MathClass-close">)</mo></mrow></math></span></span><script type="math/mml" id="MathJax-Element-4"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover> <mo class="MathClass-rel">=</mo> <mrow><mo class="MathClass-open">(</mo><mrow><mn>0</mn><mo class="MathClass-punc">,</mo> <mn>0</mn><mo class="MathClass-punc">,</mo><mo class="MathClass-bin">-</mo><mn>1</mn></mrow><mo class="MathClass-close">)</mo></mrow></math></script>,
+      so after the camera transformations <!--l. 111--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-op&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-42" style="width: 0.965em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(-0.117em, 1000.84em, 1.205em, -999.997em); top: -1.019em; left: 0em;"><span class="mrow" id="MathJax-Span-43"><span class="mover" id="MathJax-Span-44"><span style="display: inline-block; position: relative; width: 0.904em; height: 0px;"><span style="position: absolute; clip: rect(3.428em, 1000.48em, 4.21em, -999.997em); top: -4.023em; left: 0.243em;"><span class="mrow" id="MathJax-Span-45"><span class="mi" id="MathJax-Span-46" style="font-family: STIXGeneral-Italic;">a</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span><span style="position: absolute; clip: rect(3.428em, 1000.84em, 4.15em, -999.997em); top: -4.564em; left: 0em;"><span class="mo MathClass-op" id="MathJax-Span-47" style=""><span style="font-family: STIXGeneral-Regular;">&#8594;</span></span><span style="display: inline-block; width: 0px; height: 4.029em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 1.025em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 1.191em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></span></span><script type="math/mml" id="MathJax-Element-5"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mover accent="true"><mrow><mi>a</mi></mrow><mo class="MathClass-op">&#8594;</mo></mover></math></script>
+      will simply be the original vector under the same rotation transformation as the camera.
+      The  <span class="pcrr7t-x-x-120">drawIntersectTest() </span>function  receives  a  pointer  to  the  scene’s  <span class="pcrr7t-x-x-120">Camera</span>
+      data structure, which has a <span class="pcrr7t-x-x-120">getVector() </span>method to return its rotation vector as
+      an <span class="pcrr7t-x-x-120">Eigen::Vector3f</span>, and a <span class="pcrr7t-x-x-120">getAngle() </span>method to return its rotation angle in
+      radians as a <span class="pcrr7t-x-x-120">float</span>.
+      <!--l. 113--><p class="noindent">In order to intersect this vector with a superquadric, you must test if it hits each
+      superquadric  in  the  scene,  and  choose  the  intersection  (if  there  is  one)  closest  to
+      the camera. Then, your function should use <span class="pcrr7t-x-x-120">glBegin(GL</span><span class="pcrr7t-x-x-120">_LINES)</span>, <span class="pcrr7t-x-x-120">glEnd(), </span>and
+      <span class="pcrr7t-x-x-120">glVertex3f() </span>to draw a vector of length 1 starting from the intersection point and
+      pointing in the direction of the surface normal there. Instances of the <span class="pcrr7t-x-x-120">Primitive </span>class
+      provide a <span class="pcrr7t-x-x-120">getNormal() </span>function, which takes an <span class="pcrr7t-x-x-120">Eigen::Vector3f </span>representing
+                                                                                         
+                                                                                         
+      a point on the superquadric’s surface. The function assumes that the superquadric is
+      centered at zero, but <span class="cmbx-12">does </span>account for the superquadric’s own scaling. As a result, if
+      you have, say, a superquadric sphere of radius 2, you should pass the <span class="pcrr7t-x-x-120">getNormal()</span>
+      function a vector such as (0, 2, 0) rather than the unscaled (0, 1, 0), which isn’t on its
+      surface.
+      <!--l. 115--></p><p class="noindent">As with <span class="pcrr7t-x-x-120">drawIOTest() </span>function, don’t forget to apply each superquadric’s inverse
+      transformations  to  your  ray.  Additionally,  the  arcball  rotation  does  not  affect  the
+      location of the camera or light structs, just how they appear in the viewer, so you can
+      still use it to rotate the scene and check that the normal vector you draw looks correct.
+      </p></dd></dl>
+<!--l. 120--><p class="noindent"> <a id="Part2"><span class="cmbx-12x-x-172">Your Assignment: Part 2 (50 pts)</span></a>
+<!--l. 125--></p><p class="noindent">For this part of the assignment, you must provide an implementation of the <span class="cmbx-12">raytrace() </span>function,
+in <span class="cmbx-12">Assignment.cpp</span>. This function should send a ray out from the camera through each pixel in a
+grid of arbitrary size, and compute the lighting at its first intersection with a superquadric. The
+point breakdown is as follows:
+      </p><dl class="enumerate"><dt class="enumerate">
+   1. </dt><dd class="enumerate"><span class="cmbx-12">(30 points) </span>for a correct implementation of the Phong model at each ray-superquadric
+      intersection.
+      </dd><dt class="enumerate">
+   2. </dt><dd class="enumerate"><span class="cmbx-12">(20  points) </span>for  a  correct  implementation  of  shadowing  at  each  ray-superquadric
+      intersection.</dd></dl>
+<!--l. 132--><p class="noindent">Since the raytracing function may take some time to complete, we <span class="cmbx-12">require </span>that you also provide
+images that you have raytraced in your submission. We will still verify and run your code, having a
+preliminary image helps a lot in verifying what’s wrong and helping in providing you helpful
+feedback.
+<!--l. 134--></p><p class="noindent">To make this a bit less of a chore, we’ve provided a <span class="cmbx-12">PNGMaker </span>class to store and manipulate the
+grid of pixels composing your image, in addition to automatically writing the result to a file called
+<span class="pcrr7t-x-x-120">rt.png </span>in whatever directory you ran the program from, once the <span class="pcrr7t-x-x-120">raytrace() </span>function returns.
+You’ll need to make sure the libpng library is installed, which you can do on Ubuntu
+with
+</p><div class="center">
+<!--l. 135--><p class="noindent">
+<!--l. 135--></p><p class="noindent"><span class="pcrr7t-x-x-120">sudo apt-get install libpng-dev</span></p></div>
+<!--l. 136--><p class="noindent">You can set the color of pixel using the <span class="cmbx-12">setPixel() </span>method, which takes two <span class="pcrr7t-x-x-120">int</span>s representing the
+<!--l. 136--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-48" style="width: 0.484em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.424em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(1.986em, 1000.42em, 2.767em, -999.997em); top: -2.581em; left: 0em;"><span class="mrow" id="MathJax-Span-49"><span class="mi" id="MathJax-Span-50" style="font-family: STIXGeneral-Italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.587em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.628em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>x</mi></math></span></span><script type="math/mml" id="MathJax-Element-6"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>x</mi></math></script> and
+<!--l. 136--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-51" style="width: 0.484em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.424em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(1.986em, 1000.42em, 2.948em, -999.997em); top: -2.581em; left: 0em;"><span class="mrow" id="MathJax-Span-52"><span class="mi" id="MathJax-Span-53" style="font-family: STIXGeneral-Italic;">y</span></span><span style="display: inline-block; width: 0px; height: 2.587em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.247em; border-left: 0px solid; width: 0px; height: 0.816em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>y</mi></math></span></span><script type="math/mml" id="MathJax-Element-7"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>y</mi></math></script> indices of the pixel, and
+three <span class="pcrr7t-x-x-120">float</span>s in the range <!--l. 136--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mrow&gt;&lt;mo class=&quot;MathClass-open&quot;&gt;[&lt;/mo&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo class=&quot;MathClass-punc&quot;&gt;,&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-close&quot;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-54" style="width: 2.227em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.106em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(1.746em, 1002.05em, 2.948em, -999.997em); top: -2.581em; left: 0em;"><span class="mrow" id="MathJax-Span-55"><span class="mrow" id="MathJax-Span-56"><span class="mo MathClass-open" id="MathJax-Span-57" style="vertical-align: 0.003em;"><span style="font-family: STIXGeneral-Regular;">[</span></span><span class="mrow" id="MathJax-Span-58"><span class="mn" id="MathJax-Span-59" style="font-family: STIXGeneral-Regular;">0</span><span class="mo MathClass-punc" id="MathJax-Span-60" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-61" style="font-family: STIXGeneral-Regular; padding-left: 0.183em;">1</span></span><span class="mo MathClass-close" id="MathJax-Span-62" style="vertical-align: 0.003em;"><span style="font-family: STIXGeneral-Regular;">]</span></span></span></span><span style="display: inline-block; width: 0px; height: 2.587em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.247em; border-left: 0px solid; width: 0px; height: 1.003em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo class="MathClass-open">[</mo><mrow><mn>0</mn><mo class="MathClass-punc">,</mo><mn>1</mn></mrow><mo class="MathClass-close">]</mo></mrow></math></span></span><script type="math/mml" id="MathJax-Element-8"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo class="MathClass-open">[</mo><mrow><mn>0</mn><mo class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo class="MathClass-close">]</mo></mrow></math></script>
+                                                                                         
+                                                                                         
+representing the red, green, and blue intensities for the pixel. The version of <span class="pcrr7t-x-x-120">raytrace()</span>
+provided contains a simple example of its usage, looping through the entire grid and coloring it
+entirely white. Note that because the lecture note derivation of the ray equation assumes
+<!--l. 136--><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mrow&gt;&lt;mo class=&quot;MathClass-open&quot;&gt;(&lt;/mo&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo class=&quot;MathClass-punc&quot;&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;mo class=&quot;MathClass-close&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-63" style="width: 2.227em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.106em; height: 0px; font-size: 104%;"><span style="position: absolute; clip: rect(1.746em, 1002.05em, 2.948em, -999.997em); top: -2.581em; left: 0em;"><span class="mrow" id="MathJax-Span-64"><span class="mrow" id="MathJax-Span-65"><span class="mo MathClass-open" id="MathJax-Span-66" style="font-family: STIXGeneral-Regular;">(</span><span class="mrow" id="MathJax-Span-67"><span class="mn" id="MathJax-Span-68" style="font-family: STIXGeneral-Regular;">0</span><span class="mo MathClass-punc" id="MathJax-Span-69" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-70" style="font-family: STIXGeneral-Regular; padding-left: 0.183em;">0</span></span><span class="mo MathClass-close" id="MathJax-Span-71" style="font-family: STIXGeneral-Regular;">)</span></span></span><span style="display: inline-block; width: 0px; height: 2.587em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.247em; border-left: 0px solid; width: 0px; height: 1.003em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo class="MathClass-open">(</mo><mrow><mn>0</mn><mo class="MathClass-punc">,</mo><mn>0</mn></mrow><mo class="MathClass-close">)</mo></mrow></math></span></span><script type="math/mml" id="MathJax-Element-9"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo class="MathClass-open">(</mo><mrow><mn>0</mn><mo class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo class="MathClass-close">)</mo></mrow></math></script> to be
+in the lower left corner of the screen, so does the <span class="pcrr7t-x-x-120">PNGMaker </span>class.
+<!--l. 138--></p><p class="noindent">The size of the output image is currently set to 250x250 using a couple of <span class="pcrr7t-x-x-120">define</span>s at the top of
+the file, but you are free to set the resolution to whatever you desire. Just be aware that ray
+tracing takes a very long time, so you’ll probably want to test your code with smaller images
+before.
+<!--l. 140--></p><p class="noindent">The <span class="cmbx-12">raytrace() </span>function takes as input two variables: a pointer to the active <span class="pcrr7t-x-x-120">Camera </span>struct, and
+a pointer to the singleton <span class="pcrr7t-x-x-120">Scene </span>instance, which contains all of the information about the objects
+and primitives in the scene, in addition to a vector called <span class="pcrr7t-x-x-120">lights </span>which contains all of the lights
+in the scene as <span class="pcrr7t-x-x-120">PointLight </span>structs. <span class="pcrr7t-x-x-120">Camera </span>is defined at the top of <span class="pcrr7t-x-x-120">UI.hpp </span>and
+<span class="pcrr7t-x-x-120">UI.cpp</span>, while <span class="pcrr7t-x-x-120">PointLight </span>is defined at the top of <span class="pcrr7t-x-x-120">Scene.hpp </span>and <span class="pcrr7t-x-x-120">Scene.cpp</span>, and
+both should be pretty self-explanatory in terms of their members and methods. The
+tree of objects will be familiar from part a, although everything’s now a member of a
+static singleton instance of the <span class="pcrr7t-x-x-120">Scene </span>rather than a static member of the class itself
+(in other words, you have to use <span class="pcrr7t-x-x-120">scene-&gt;member </span>to access something, instead of
+<span class="pcrr7t-x-x-120">Scene::member</span>.
+<!--l. 142--></p><p class="noindent">Finally, because the ray tracing process can take such a long time, we spawn it in a separate thread
+that runs in the background while the rest of the program continues executing as usual. As a
+result, if you were to simply use the scene’s data structures in your tracer, they could potentially
+be altered through the command line during the middle of the <span class="pcrr7t-x-x-120">raytrace() </span>function. As a result,
+it received copies of the <span class="pcrr7t-x-x-120">Camera </span>and <span class="pcrr7t-x-x-120">Scene </span>structs used throughout the rest of the
+program.
+<!--l. 144--></p><p class="indent">   </p><hr>
+<!--l. 146--><p class="noindent"> <span class="cmbx-12x-x-172">What to Submit</span>
+<!--l. 151--></p><p class="noindent">Before submitting, please comment your code clearly and appropriately, making sure to give details
+regarding any non-trivial parts of your program.
+<!--l. 153--></p><p class="noindent">Submit a <span class="pcrr7t-x-x-120">.zip </span>or <span class="pcrr7t-x-x-120">.tar.gz </span>file containing all the files that we would need to compile, run, and
+test your program. In addition, please submit in the <span class="pcrr7t-x-x-120">.zip </span>or <span class="pcrr7t-x-x-120">.tar.gz </span>a README with
+instructions on how to compile and execute your program as well as any comments and
+information that you would like us to know.
+<!--l. 155--></p><p class="noindent">We ask that you name your <span class="pcrr7t-x-x-120">.zip </span>or <span class="pcrr7t-x-x-120">.tar.gz </span>file <span class="pcrr7t-x-x-120">lastname_firstname_hw7.zip </span>or
+<span class="pcrr7t-x-x-120">lastname_firstname_hw7.tar.gz </span>respectively, where you replace the “firstname” and
+“lastname” fields with your actual first and last name.
+<!--l. 157--></p><p class="noindent"><span class="cmbx-12">Please submit your zip or tar.gz to moodle in the area for Assignment 7.</span>
+<!--l. 159--></p><p class="indent">   </p><hr>
+<div class="center">
+<!--l. 162--><p class="noindent">
+<!--l. 163--></p><p class="noindent"><span class="cmbx-12">Original written by Parker Won and Nailen Matschke (Class of 2017).</span><br>
+<span class="cmbx-12">Modified and adapted by Lokbondo (Loko) Kung (Class of 2018).</span><br>
+                                                                                         
+                                                                                         
+<span class="cmbx-12">Links: </span><a href="http://courses.cms.caltech.edu/cs171/intro.html"><span class="cmbx-12">Home</span></a>  <a href="http://courses.cms.caltech.edu/cs171/assignments/index.html"><span class="cmbx-12">Assignments</span></a>  <a href="http://courses.cms.caltech.edu/cs171/contacts.html"><span class="cmbx-12">Contacts</span></a>  <a href="http://courses.cms.caltech.edu/cs171/policies.html"><span class="cmbx-12">Policies</span></a>  <a href="http://courses.cms.caltech.edu/cs171/resources.html"><span class="cmbx-12">Resources</span></a></p></div>
+    
+ 
+
+                                                                                         
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: STIXSizeOneSym, sans-serif;"></div></div></body></html>

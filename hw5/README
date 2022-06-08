@@ -1,0 +1,11 @@
+To compile the program, type 
+
+make
+
+on the command line. 
+
+Execute with:
+
+./smooth [scene file] [xres] [yres] [h]
+
+To smooth, press "m".

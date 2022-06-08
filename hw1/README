@@ -1,0 +1,18 @@
+To compile the program, type 
+
+make clean
+
+and then
+
+make
+
+on the command line. 
+
+Executing the program:
+
+./wireframe [scene_file] [xres] [yres] | convert - [output_image]
+
+
+I've attempted the extra credit portion but I'm unsure if it's correct, so I've included it as a separate file. To execute it: 
+
+./wireframe_ec [scene_file] [xres] [yres] | convert - [output_image]

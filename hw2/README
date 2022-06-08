@@ -1,0 +1,15 @@
+This is a resubmission of the assignment that was turned in on time -- I've just made corrections to parsing from the comments on hw1.
+
+To compile the program, type 
+
+make
+
+on the command line. 
+
+Execute with:
+
+./shaded scene_cube2.txt 800 800 0 | convert - img.png
+
+or 
+
+./shaded scene_cube2.txt 800 800 1 | convert - img.png

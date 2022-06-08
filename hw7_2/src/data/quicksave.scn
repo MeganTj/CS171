@@ -1,0 +1,11 @@
+prm test_prm
+setCoeff 3 3 3
+prm test_prm2
+prm test_prm3
+obj test_obj
+addPrimitive test_prm
+translate 1 0 0
+ap test_prm2
+cursor test_prm
+ap test_prm prm1
+scale 1 2 3
